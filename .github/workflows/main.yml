@@ -12,3 +12,5 @@ jobs:
         uses: aevea/action-kaniko@master
         with:
           image: aevea/kaniko
+          username: chitrangpatel
+          password: Bunchi!610
