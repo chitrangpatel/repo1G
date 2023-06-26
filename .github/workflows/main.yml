@@ -13,6 +13,6 @@ jobs:
       - name: kaniko build
         uses: aevea/action-kaniko@master
         with:
-          image: chitrangpatel/repo1Gimage
+          image: ${{ secrets.DOCKERHUB_USERNAME }}/repo1Gimage
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_PASSWORD }}
